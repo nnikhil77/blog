@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adventure Bike Blog</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+
+    body {
+      background-color: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 25px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 5px;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #ccc;
+    }
+
+    main {
+      flex: 1;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .post {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .post:hover {
+      transform: translateY(-5px);
+    }
+
+    .post img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .post-content {
+      padding: 20px;
+    }
+
+    .post-content h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    .post-content .date {
+      font-size: 0.9rem;
+      color: #777;
+      margin-bottom: 15px;
+    }
+
+    .post-content p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Adventure Bike Blog</h1>
+    <p>Stories, reviews & journeys on two wheels</p>
+  </header>
+
+  <main>
+
+    <!-- Mountain ADV Ride -->
+    <article class="post">
+      <img
+        src="https://images.unsplash.com/photo-1637071361660-60bc9fc81f53?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWR2JTIwYmlrZSUyMG9uJTIwbW91bnRhaW5zfGVufDB8fDB8fHwy?auto=format&fit=crop&w=1200&q=80"
+        alt="Adventure bike riding in mountains">
+      <div class="post-content">
+        <h2>Conquering Mountain Trails</h2>
+        <div class="date">January 20, 2026</div>
+        <p>
+          Adventure bikes are built for rugged paths and steep climbs.
+          Discover how riders tackle challenging terrain and the thrill
+          of off-road exploration.
+        </p>
+      </div>
+    </article>
+
+    <!-- Another Adventure Bike -->
+    <article class="post">
+      <img
+        src="https://images.unsplash.com/photo-1701384061802-c127c17e024a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YWR2JTIwbW90b3JjeWNsZSUyMG9uJTIwbW91bnRhaW5zfGVufDB8fDB8fHwy?auto=format&fit=crop&w=1200&q=80"
+        alt="Adventure motorcycle parked on road">
+      <div class="post-content">
+        <h2>The Spirit of Adventure Riding</h2>
+        <div class="date">January 25, 2026</div>
+        <p>
+          Adventure motorcycles combine endurance and freedom.
+          Learn why these bikes are the ultimate companions
+          for long-distance journeys.
+        </p>
+      </div>
+    </article>
+
+    <!-- Desert ADV Ride -->
+    <article class="post">
+      <img
+        src="https://images.unsplash.com/photo-1663905392544-d6d1f3d155bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGFkdiUyMG1vdG9yY3ljbGUlMjBvbiUyMGRlc2VydHxlbnwwfHwwfHx8Mg%3D%3D?auto=format&fit=crop&w=1200&q=80"
+        alt="Adventure bike riding in desert">
+      <div class="post-content">
+        <h2>Desert Rides and Open Roads</h2>
+        <div class="date">January 28, 2026</div>
+        <p>
+          From sandy dunes to endless highways, adventure bikes
+          thrive in diverse landscapes. Here’s how riders prepare
+          for desert expeditions.
+        </p>
+      </div>
+    </article>
+
+  </main>
+
+  <footer>
+    © 2026 Adventure Bike Blog | Ride safe, ride free
+  </footer>
+
+</body>
+</html>
